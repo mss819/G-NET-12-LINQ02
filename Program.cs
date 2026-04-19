@@ -256,6 +256,20 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question21
+
+            ////21.Pair each product with a customer(by position) and produce
+            ////a string "ProductName sold to CompanyName".
+            //var result = ProductList.Zip(CustomerList,
+            // (p, c) => $"{p.ProductName} -sold to- {c.CompanyName}");
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
