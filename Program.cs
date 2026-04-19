@@ -212,6 +212,15 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question17
+
+            ////17.Try to get the first product with a price > $500.it returns null
+            ////instead of throwing.
+            //var firstVeryExpensiveProduct = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(firstVeryExpensiveProduct);
+
+            #endregion
+
         }
     }
 }
