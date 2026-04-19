@@ -157,6 +157,17 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question12
+
+            //12. Get a distinct list of all product categories
+            //var result = ProductList.Select(p => p.Category).Distinct();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
