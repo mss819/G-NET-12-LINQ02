@@ -6,6 +6,7 @@ using System.Globalization;
 using System.Runtime.ConstrainedExecution;
 using System.Xml.Linq;
 using static G_NET_12_LINQ02.DataSources.Source;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace G_NET_12_LINQ02
 
 {
@@ -135,6 +136,14 @@ namespace G_NET_12_LINQ02
             //{
             //    Console.WriteLine(item);
             //}
+
+            #endregion
+
+            #region Question10
+
+            ////10.Calculate the total number of units in stock across all products
+            //var result = ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(result);
 
             #endregion
 
