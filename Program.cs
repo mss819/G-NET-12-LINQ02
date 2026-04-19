@@ -38,6 +38,20 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question03
+
+            ////3.Take products from the list as long as Their UnitPrice is less than
+            ////$25(list is ordered by price).
+
+            //var result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
 
         }
     }
