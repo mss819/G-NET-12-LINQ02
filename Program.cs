@@ -62,6 +62,15 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question05
+
+            //5. Check if the ID list contains 9
+            //var result = ProductList.Select(p => p.ProductID).Contains(9);
+            //Console.WriteLine(result);
+
+
+            #endregion
+
 
         }
     }
