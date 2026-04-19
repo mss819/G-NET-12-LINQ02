@@ -243,6 +243,19 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question20
+
+            ////20.Concatenate the first 3 product names with the first 3
+            ////customer company names into a single sequence.
+            //var result = ProductList.Take(3).Select(p => p.ProductName)
+            //                          .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
