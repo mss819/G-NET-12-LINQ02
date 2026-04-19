@@ -1,10 +1,11 @@
 ﻿using G_NET_12_LINQ02.Models;
-using static G_NET_12_LINQ02.DataSources.Source;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
 using System.Globalization;
+using System.Runtime.ConstrainedExecution;
 using System.Xml.Linq;
+using static G_NET_12_LINQ02.DataSources.Source;
 namespace G_NET_12_LINQ02
 
 {
@@ -80,6 +81,24 @@ namespace G_NET_12_LINQ02
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
+
+            #region Question07
+
+            //7.Group products by Category and project only product names per
+            //group
+
+            //var result = ProductList.GroupBy(p => p.Category);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Category: {item.Key}");
+            //    foreach (var product in item)
+            //    {
+            //        Console.WriteLine($" - {product.ProductName}");
+            //    }
             //}
 
 
