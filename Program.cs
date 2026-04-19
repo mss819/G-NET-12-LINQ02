@@ -1,6 +1,7 @@
 ﻿using G_NET_12_LINQ02.Models;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.Runtime.ConstrainedExecution;
@@ -144,6 +145,15 @@ namespace G_NET_12_LINQ02
             ////10.Calculate the total number of units in stock across all products
             //var result = ProductList.Sum(p => p.UnitsInStock);
             //Console.WriteLine(result);
+
+            #endregion
+
+            #region Question11
+
+            ////11.Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var minPrice = ProductList.Min(p => p.UnitPrice);
+            //var maxPrice = ProductList.Max(p => p.UnitPrice);
+            //Console.WriteLine($"Min Price: {minPrice}  ,  Max Price: {maxPrice} ");
 
             #endregion
 
