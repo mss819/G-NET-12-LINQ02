@@ -221,6 +221,17 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region Question18
+
+            ////18. Generate a multiplication table row for 7
+            //var multiplicationTableRow = Enumerable.Range(1, 10).Select(i => $"7 x {i} = {7 * i}");
+            //foreach (var item in multiplicationTableRow)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
